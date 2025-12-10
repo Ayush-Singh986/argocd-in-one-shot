@@ -134,13 +134,13 @@ Instead of using my image directly, you will **pull it and re-push it to your ow
 2. Pull my base image:
 
    ```bash
-   docker pull amitabhdevops/chai-devops:latest
+   docker pull Ayush244/chai-devops:latest
    ```
 
 3. Tag it with your own Docker Hub username:
 
    ```bash
-   docker tag amitabhdevops/chai-devops:latest <your-dockerhub-username>/chai-devops:v1.0.0
+   docker tag Ayush244/chai-devops:latest <your-dockerhub-username>/chai-devops:v1.0.0
    ```
 
 4. Push it to your account:
@@ -155,9 +155,9 @@ Now you own a copy of the demo image and can push new versions under your accoun
 >
 > Update image in your `deployment` of chai-app:
 > 
-> 1. Open that forked & clonned repo of this repo `https://github.com/Amitabh-DevOps/argocd-demos.git`.
+> 1. Open that forked & clonned repo of this repo `https://github.com/Ayush-Singh986/argocd-demos.git`.
 > 2. Navigate to `image_updater/chai-app/deployment.yml`.
-> 3. Update image from `amitabhdevops/chai-devops:v1.0.0` to `<your-dockerhub-username>/chai-devops:v1.0.0`. Here:
+> 3. Update image from `Ayush244/chai-devops:v1.0.0` to `<your-dockerhub-username>/chai-devops:v1.0.0`. Here:
 >
 >     ![alt text](output_images/image-3.png)
 >
